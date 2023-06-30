@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentoria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="page">
+    <header>
+        <h1>MENTORIA</h1>
+        <p>
+        Preencha o formulário abaixo para<br/> agendar a sua mentoria
+        </p>
+    </header>
+
+    <form>
+
+        <fieldset>
+            <div class="fieldset-pointer">
+            <legend>
+                Informações pessoais
+            </legend>
+            <div class="col-2">
+            <div class="input-pointer">
+                <label for="name">Nome</label>
+                <input type="text" id="name"/>
+            </div>
+            <div class="input-pointer">
+                <label for="sobre-name">Sobre Nome</label>
+                <input type="text" id="sobre-name"/>
+            </div>
+            </div>
+            <div class="input-pointer">
+                <label for="sobre-email">Email <span>(digite um email válido)</span> </label>
+                <input type="email" id="sobre-email"/>
+            </div>
+
+
+            <div class="input-pointer">
+                <label for="sobre-password">Senha <span>(mínimo de 6 caracteres)</span> </label>
+                <input type="password" id="sobre-password"/>
+            </div>
+
+
+        </div>
+        </fieldset>
+
+
+        <fieldset>
+            <div class="fieldset-pointer">
+            <legend>
+                INFORMAÇÕES DO MENTOR
+            </legend>
+       
+            <div class="input-pointer">
+                <label for="name">Nome Do Seu Mentor <span>(só o primeiro nome)</span> </label>
+                <input type="text" id="name2"/>
+            </div>
+
+        </div>
+        </fieldset>
+
+
+        <fieldset>
+            <div class="fieldset-pointer">
+            <legend>
+                Seus horários disponíveis
+            </legend>
+
+            <legend id="fooee">
+                Primeira mentoria
+            </legend>
+
+            <div class="col-3">
+
+                <div class="input-pointer" id="jjoo">
+                    <label for="date">Data<span>(DD/MM/AAAA)</span> </label>
+                    <input type="date" id="date-01"/>
+                </div>
+
+                <div class="input-pointer">
+                    <label for="das-01">Das</label>
+                    <input type="time" id="das-01"/>
+                </div>
+
+                <div class="input-pointer">
+                    <label for="ate-01">Até</label>
+                    <input type="time" id="ate-01"/>
+                </div>
+
+            </div>
+       
+
+        </div>
+        </fieldset>
+
+
+        <fieldset>
+            <div class="fieldset-pointer">
+
+            <legend id="fooee">
+                Segunda mentoria
+            </legend>
+
+            <div class="col-3">
+
+                <div class="input-pointer" id="jjoo">
+                    <label for="date">Data<span>(DD/MM/AAAA)</span> </label>
+                    <input type="date" id="date-01"/>
+                </div>
+
+                <div class="input-pointer">
+                    <label for="das-01">Das</label>
+                    <input type="time" id="das-01"/>
+                </div>
+
+                <div class="input-pointer">
+                    <label for="ate-01">Até</label>
+                    <input type="time" id="ate-01"/>
+                </div>
+
+            </div>
+       
+
+        </div>
+        </fieldset>
+
+
+    </form>
+
+
+
+    <footer>
+        <input class="button" type="submit" value="Salvar">
+    </footer>
+
+</div>
+
+</body>
+</html>
